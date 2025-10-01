@@ -84,7 +84,7 @@ class HomePage extends StatelessWidget {
       child: Container(
         padding: EdgeInsets.all(8),
         decoration: BoxDecoration(
-          color: const Color.fromARGB(255, 31, 44, 68),
+          color: const Color.fromARGB(255, 239, 96, 25),
           border: BoxBorder.all(width: 2),
           boxShadow: [
             BoxShadow(
