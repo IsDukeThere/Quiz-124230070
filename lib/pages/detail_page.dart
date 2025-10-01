@@ -19,7 +19,7 @@ class _DetailPageState extends State<DetailPage> {
     );
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: const Color.fromARGB(255, 197, 149, 6),
+        backgroundColor: const Color.fromARGB(255, 228, 77, 7),
         foregroundColor: Colors.white,
         title: Text("Detail Menu", style: TextStyle(fontFamily: 'Motiva')),
       ),
@@ -85,7 +85,7 @@ class _DetailPageState extends State<DetailPage> {
                   },
                   style: ButtonStyle(
                     backgroundColor: MaterialStateProperty.all(
-                      const Color.fromARGB(255, 7, 189, 255)
+                      const Color.fromARGB(255, 228, 77, 7)
                       ),
                       shape: MaterialStateProperty.all(
                       RoundedRectangleBorder(
@@ -126,7 +126,7 @@ class _DetailPageState extends State<DetailPage> {
                   },
                   style: ButtonStyle(
                     backgroundColor: MaterialStateProperty.all(
-                      const Color.fromARGB(255, 7, 189, 255)
+                      const Color.fromARGB(255, 228, 77, 7)
                       ),
                       shape: MaterialStateProperty.all(
                       RoundedRectangleBorder(
