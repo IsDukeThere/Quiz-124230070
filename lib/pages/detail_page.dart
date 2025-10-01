@@ -187,10 +187,10 @@ class _DetailPageState extends State<DetailPage> {
     );
   }
 
-  void _checkout(){
-    int pesan;
-    int jumlah = menu.price*pesan;
-    print(jumlah);
+  // void _checkout(){
+  //   int pesan;
+  //   int jumlah = menu.price*pesan;
+  //   print(jumlah);
 
-  }
+  // }
 }
