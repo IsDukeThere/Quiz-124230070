@@ -122,7 +122,7 @@ class _DetailPageState extends State<DetailPage> {
                   width: 400,
                   child: TextButton(
                   onPressed: () {
-                    _checkout();
+                    // _checkout();
                   },
                   style: ButtonStyle(
                     backgroundColor: MaterialStateProperty.all(
