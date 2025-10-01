@@ -110,7 +110,43 @@ class _DetailPageState extends State<DetailPage> {
               children: [
                 _pesanan()
               ],
+            ),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                Container(
+                  padding: EdgeInsets.symmetric(
+                    horizontal: 20, 
+                    vertical: 10
+                  ),
+                  width: 400,
+                  child: TextButton(
+                  onPressed: () {
+                    _checkout();
+                  },
+                  style: ButtonStyle(
+                    backgroundColor: MaterialStateProperty.all(
+                      const Color.fromARGB(255, 7, 189, 255)
+                      ),
+                      shape: MaterialStateProperty.all(
+                      RoundedRectangleBorder(
+                        borderRadius: BorderRadius.circular(4),
+                      ),
+                    ),
+                  ),
+                  child: Container(
+                    padding: EdgeInsets.all(10),
+                    child: Text(
+                      "Pesan",
+                      style: TextStyle(
+                        color: Colors.white
+                      ),
+                      ),
+                  ),
+                ),
             )
+              ],
+            ),
               ],
             )
         ),
@@ -128,6 +164,7 @@ class _DetailPageState extends State<DetailPage> {
     return Container(
       padding: EdgeInsets.symmetric(horizontal: 20, vertical: 10),
       child: TextFormField(
+        // keyboardType: numb,
         enabled: true,
         controller: pesan,
         style: TextStyle(
@@ -148,5 +185,12 @@ class _DetailPageState extends State<DetailPage> {
         ),
       ),
     );
+  }
+
+  void _checkout(){
+    int pesan;
+    int jumlah = menu.price*pesan;
+    print(jumlah);
+
   }
 }
