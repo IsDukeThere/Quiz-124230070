@@ -108,7 +108,7 @@ class _DetailPageState extends State<DetailPage> {
             ),
             Row(
               children: [
-                _pesanan()
+                // _pesanan()
               ],
             ),
             Row(
@@ -186,11 +186,4 @@ class _DetailPageState extends State<DetailPage> {
       ),
     );
   }
-
-  // void _checkout(){
-  //   int pesan;
-  //   int jumlah = menu.price*pesan;
-  //   print(jumlah);
-
-  // }
 }
